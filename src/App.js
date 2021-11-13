@@ -1,8 +1,8 @@
 import './App.css';
-
+import VideoCard from "./VideoCard";
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className="app_top">
         <img 
         className="app_logo"
@@ -10,6 +10,13 @@ function App() {
         alt="insta-logo"
         />
         <h1>Reels</h1>
+      </div>
+      <div className="app_videos">
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+
+       
       </div>
     </div>
   );
