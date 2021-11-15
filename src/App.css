@@ -14,19 +14,19 @@ html{
 /* .app_top{
    margin-bottom:-150px;
 } */
-.app_top > h1{
-  color:white;
+.app_top  h1{
+  color: white
 }
 .app_videos{
    position:relative;
-   height:70vh;
+   height:75vh;
    background-color:white;
-   width:70%;
+   width:60%;
    border-radius:20px;
-   max-width:450px;
+   max-width:400px;
    max-height:1200px;
    overflow:scroll;
-   scroll-snap-type:y mandatory;
+   scroll-snap-type: y mandatory;
 }
 
 /* Hide scrollbar for chrome,safari and opera */
