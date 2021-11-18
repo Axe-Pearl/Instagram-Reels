@@ -12,7 +12,14 @@ function App() {
         <h1>Reels</h1>
       </div>
       <div className="app_videos">
-        <VideoCard />
+        <VideoCard 
+          channel="Anurag"
+          avatarSrc="https://www.instagram.com/p/CPNcchfLGttyAm7nQtZsdcVULj9zRyg1yA2tmc0/"
+          song="voice"
+          url="http://techslides.com/demos/sample-videos/small.webm"
+          likes={300}
+          shares={50}
+        />
         <VideoCard />
         <VideoCard />
 
