@@ -2,6 +2,8 @@ import React ,{useState,useRef} from 'react';
 import "./VideoCard.css";
 import VideoFooter from './VideoFooter';
 import VideoHeader from './VideoHeader';
+
+
 function VideoCard({channel,avatarSrc,song,url,likes,shares}) { 
     const [IsVideoPlaying,setIsVideoPlaying] = useState(false);
     const vedioref  = useRef(null);   
